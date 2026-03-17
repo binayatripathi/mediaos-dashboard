@@ -1,22 +1,22 @@
 # MediaOS Dashboard
 
-A control room for multi-brand video operations.
+A React + Vite frontend for a multi-brand media operating system.
 
 ## Purpose
 Manage:
 - brand packs
 - workflow routing
-- video job creation
-- render queue
+- script generation
+- asset generation / upload
+- render jobs
 - approvals
-- asset-aware production
+- publishing
+- analytics feedback
 
-## V1
-- Dashboard landing page
-- Brand pack overview
-- Workflow registry
-- Create-job panel
-- Queue/status view
+## Stack
+- React
+- Vite
+- TypeScript
 
 ## Local dev
 ```bash
@@ -24,5 +24,10 @@ npm install
 npm run dev
 ```
 
+## Build
+```bash
+npm run build
+```
+
 ## Deploy
-Import this repo into Replit and deploy from there.
+Import into Replit and deploy from there.
